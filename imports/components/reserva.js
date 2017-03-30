@@ -15,6 +15,7 @@
             nombreCancha:'Foto de Cancha \'5Site\''
           }
       }
+    //Si no hay reserva muestras el precio y cupo en -1 ? eso no es muy diciente que digamos podrias poner 0 por tema de estetica
     render(){
         return(
           <div className='container reserva'>
