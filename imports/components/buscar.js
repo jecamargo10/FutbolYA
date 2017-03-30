@@ -67,7 +67,7 @@
           var nombreC =lac.fetch();
           return nombreC[0].nombreSitio;
       }
-
+// Ten cuidado con este tipo de llamado, la buena practica dice que hagas un publish y lo llames como react method, es recomendable para todos los metodos que tengan una llamada de la base de datos
       obtenerReservas(num) {
         var idloc=this.props.localidad;
         if(this.props.reserva==='Busca')
