@@ -1,4 +1,5 @@
 //Tomado de StackOverFlow
+//Podrias realizar esto en el metodo de render, el mismo comportamiento, es raro ver este js por fuera.
 document.onreadystatechange = function () {
   var state = document.readyState;
   if(state === 'complete') {
